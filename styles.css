@@ -1,0 +1,158 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom css */
+
+* { 
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: #a0bffd;
+}
+
+#content {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100vh;
+  background-color: #1c3973;
+}
+
+.nav-links {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.tab {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font: 18px "Lato", Arial;
+  font-weight: bold;
+  color: lightgrey;
+  background-color: #1c3973;;
+  cursor: pointer;
+  transition-duration: 0.35s;
+}
+
+.tab:hover {
+  color: goldenrod;
+  background-color: #274fa0;
+  transition-duration: 0.35s;
+}
+
+.information {
+  color: white;
+  font-family: 'Lato', Arial;
+  padding-top: 100px;
+}
+
+/* Home */
+
+.logo {
+  font: 50px "Parisienne", Arial;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.slogan {
+  margin-bottom: 50px;
+}
+
+.home-pizza {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 25px;
+}
+
+/* Menu */
+
+.menu-header {
+  font-size: 70px;
+  margin-bottom: 40px;
+}
+
+.item-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item-card {
+  padding: 20px;
+  width: 40%;
+}
+
+.menu-icon {
+  width: 100%;
+  height: 25vh;
+  object-fit: cover;
+}
+
+/* Contact */
+
+.contact-header {
+  font-size: 70px;
+  margin-bottom: 40px;
+}
+
+.address > p:first-child,
+.phone-number > p:first-child {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.address, .phone-number {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
