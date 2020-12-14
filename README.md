@@ -1,0 +1,1 @@
+This is a small restaurant page mockup that was created as an exercise to showcase modules, webpack, and using javascript to manipulate the DOM. Done through The Odin Project.
